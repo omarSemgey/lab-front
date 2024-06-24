@@ -2,7 +2,7 @@
 
 - Here are the instructions for setting up the project: <br/>
 <br>1- Clone the repository to your local machine using the following command: 
-<br><code>git clone https://github.com/firassemgey/lab-front</code><br>
+<br><code>git clone https://github.com/omarSemgey/lab-front</code><br>
 2- Install the project dependencies using npm: 
 <br><code>npm install</code><br>
 3- Install the back end section of the project at
