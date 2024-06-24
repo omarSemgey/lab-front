@@ -1,0 +1,140 @@
+.list{
+    width: 100%;
+    background-color: #f8f9fa
+}
+.list .page-header{
+    margin-top: 48px;
+    margin-bottom: 32px;
+    text-align: left;
+}
+.list .page-header a{
+    color: #4650dd;
+    text-decoration: none;
+}
+.list .page-header a::hover{
+    color: #212bb5;
+    text-decoration: underline;
+}
+.list .page-header span{
+    color: #6c757d;
+}
+.list .page-header .slash{
+    padding: 0px 8px;
+}
+.list .page-heading{
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.list .page-heading h1{
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 3.2px;
+    font-weight: 300;
+    margin: 0;
+}
+.list .page-heading .new{
+    align-self: start;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #4650dd;
+    padding: 8px 20px;
+    border-radius: 4px;
+}
+.list .content-table{
+    width: 100%;
+}
+.list .content-table .table-head tr{
+    padding: 0 32px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    background-color: #212529;
+}
+.list .content-table .table-head tr{
+    background: #343a40;
+}
+.list .content-table .table-head tr th{
+    padding: 24px 10px 24px 34px;
+}
+.list .content-table .table-head tr th span{
+    cursor: pointer;
+    position: relative;
+    padding-right: 30px;
+}
+.list .content-table .table-head tr th span::before{
+    position: absolute;
+    right: 4px;
+    bottom: 0px;
+    width: 0;
+    height: 0;
+    content: "";
+    opacity: .4;
+    border-top: 4px solid #fff;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+.list .content-table .table-head tr th span::after{
+position: absolute;
+top: 0px;
+right: 4px;
+width: 0;
+height: 0;
+content: "";
+opacity: .4;
+border-bottom: 4px solid #fff;
+border-top: 4px solid transparent;
+border-right: 4px solid transparent;
+border-left: 4px solid transparent;
+}
+.list .content-table .table-head tr th .up::after{
+    opacity: 1;
+}
+.list .content-table .table-head tr th .up::before{
+    opacity: .4;
+}
+.list .content-table .table-head tr th .down::after{
+    opacity: .4;
+}
+.list .content-table .table-head tr th .down::before{
+    opacity: 1;
+}
+.list .content-table .table-body{
+    background-color: #fff;
+}
+.list .content-table .table-body .table-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 32px;
+    vertical-align: middle ;
+}
+.list .content-table .table-body .table-row td:first-child,
+.list .content-table .table-body .table-row td:last-child{    
+    padding: 32px 8px 13px 32px;
+}
+.list .content-table .table-body .table-row td{
+    text-align: left;
+    padding: 24px 40px 24px 34px;
+}
+.list .content-table .table-body .table-row .edit,
+.list .content-table .table-body .table-row .delete{
+    font-size: 18px;
+}
+.list .content-table .table-body .table-row .edit{
+    color: #03cfb7 ;
+    margin-right: 16px;
+}
+.list .content-table .table-body .table-row .delete{
+    color: #dc3545 ;
+}
+.list .counter{
+    text-align: left;
+    padding: 32px;
+    background: #f8f9fa;
+    box-shadow: 0 8px 16px rgba(0,0,0,.15);
+    clip-path: inset(0px -16px -16px -16px);
+    border-radius: 0px 0px 16px 16px;
+}
+.list .counter span{
+    margin: 7px 0;
+}

@@ -1,0 +1,23 @@
+.update{
+    width: 100%;
+    background-color: #f8f9fa
+}
+.update .page-header{
+    margin-top: 48px;
+    margin-bottom: 32px;
+    text-align: left;
+}
+.update .page-header a{
+    color: #4650dd;
+    text-decoration: none;
+}
+.update .page-header a::hover{
+    color: #212bb5;
+    text-decoration: underline;
+}
+.update .page-header span{
+    color: #6c757d;
+}
+.update .page-header .slash{
+    padding: 0px 8px;
+}

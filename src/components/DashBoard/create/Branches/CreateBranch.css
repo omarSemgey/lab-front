@@ -1,0 +1,23 @@
+.create{
+    width: 100%;
+    background-color: #f8f9fa
+}
+.create .page-header{
+    margin-top: 48px;
+    margin-bottom: 32px;
+    text-align: left;
+}
+.create .page-header a{
+    color: #4650dd;
+    text-decoration: none;
+}
+.create .page-header a::hover{
+    color: #212bb5;
+    text-decoration: underline;
+}
+.create .page-header span{
+    color: #6c757d;
+}
+.create .page-header .slash{
+    padding: 0px 8px;
+}

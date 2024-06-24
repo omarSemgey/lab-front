@@ -1,0 +1,27 @@
+.analyses-create{
+    width: 100%;
+    background-color: #f8f9fa
+}
+.analyses-create .page-header{
+    margin-top: 48px;
+    margin-bottom: 32px;
+    text-align: left;
+}
+.analyses-create .page-header a{
+    color: #4650dd;
+    text-decoration: none;
+}
+.analyses-create .page-header a::hover{
+    color: #212bb5;
+    text-decoration: underline;
+}
+.analyses-create .page-header span{
+    color: #6c757d;
+}
+.analyses-create .page-header .slash{
+    padding: 0px 8px;
+}
+.analyses-create .create-form .container{
+    padding: 16px;
+    margin-top: 20px;
+}

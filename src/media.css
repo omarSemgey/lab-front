@@ -1,0 +1,78 @@
+@media (max-width: 767px) {
+    .navbar{
+        height: auto;
+        display: block;
+    }
+    .navbar .nav-links{
+        display: none ;
+        margin: 0 15px;
+        background-color: #fff !important;
+        text-align: left;
+    }
+    
+    .test{
+        margin: 100px 80px 0px 0px !important;
+        background-color: #fff !important;
+        display: block !important;
+        text-align: left;
+    }
+    .navbar .nav-links li{
+        display: block;
+    }
+    .navbar .drop-down{
+        display: block !important;
+        padding: 10px;
+    }
+    .patients .list .cards .card{
+        width: 100% !important;
+    }
+    .show .information{
+        display: block;
+        text-align: center;
+    }
+    .show .information img{
+        width: 100%;
+    }
+    .show .information .text{
+        width: 100%;
+    }
+    .show .information .text h2 {
+        margin-top: 0;
+    }
+    .contact .cards .card,
+    .about .cards .card{
+        width: 100%;
+    }
+}
+/* 993 */
+@media (max-width: 993px) {
+    /* .top-navbar{
+        display: none;
+    } */
+    .patients .navbar li{
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    } 
+    .patients .container{
+        padding: 0;
+        margin: 0px 15px 0px 15px;
+    }
+    .patients .list .cards .card{
+        width: 45%;
+    }
+    .show .information img{
+        width: 50%;
+    }
+    .show .information .text{
+        width: 100%;
+        padding-right: 0;
+    }
+}
+@media (min-width: 993px) and (max-width: 1199px) {
+
+}
+@media (min-width: 1200px) {
+.patients .container{
+    margin:0px 100px 0px 100px;
+}
+}

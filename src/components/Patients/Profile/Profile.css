@@ -1,0 +1,53 @@
+.profile .information{
+    border: 1px solid #0000002d;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.profile .information .info-header{
+    padding: 20px 0;
+    background-color: #f8f8f8;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: 1px solid #0000002d;
+}
+.profile .information .info-header .text{
+    padding: 12px 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.profile .information .info-header .link{
+    padding: 2px 10px;
+    color: #fff;
+    border-radius: 8px;
+}
+.profile .information .info-header .edit{
+    margin-right: 5px;
+    background-color: #198754;
+}
+.profile .information .info-header .logout{
+    background-color: #F75751;
+    cursor: pointer;
+}
+.profile .information .info-header .link .link-icon{
+    margin-right: 5px;
+}
+
+
+.profile .information ul{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.profile .information ul .info{
+    padding: 12px;
+}
+.profile .information ul .info:nth-child(odd) {
+    background-color: #eee;
+}
+.profile .information ul .info span{
+    display: inline-block;
+    width: 130px;
+}
+.profile .information ul .info .icon{
+    margin-right: 16px;
+}

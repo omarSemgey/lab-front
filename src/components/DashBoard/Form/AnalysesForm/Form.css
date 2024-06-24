@@ -1,0 +1,103 @@
+.analyses-create .create-form{
+    max-width: 530px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    color:#0d6efd;
+}
+.analyses-create .create-form h4{
+    color: #868282;
+}
+.analyses-create .create-form hr{
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.analyses-create .create-form .image-upload .upload-button{
+    display: none;
+}
+.analyses-create .create-form .image-upload{
+    cursor: pointer;
+    margin:50px 25px;
+    text-align: center;
+    border: 2px dashed #afb9c2;
+    border-radius: 15px;
+    padding: 35px;
+}
+.analyses-create .create-form .upload-error-result{
+    display: none;
+}
+.analyses-create .create-form .image-upload .upload-text p{
+    cursor: pointer;
+    color: black;
+}
+.analyses-create .create-form .image-upload .upload-text p .browse{
+    color: #0d6efd;
+}
+.analyses-create .create-form .image-upload .upload-text .support{
+    cursor: pointer;
+    color: #6c757d;
+}
+.analyses-create .create-form .image-upload .upload-icon{
+    cursor: pointer;
+    font-size: 50px;
+}
+/* error */
+.analyses-create .create-form .upload-error{
+    border: 2px dashed red;
+}
+.analyses-create .create-form .upload-error .upload-error-result{
+    display: block;
+}
+.analyses-create .create-form .upload-error .upload-error-result p{
+    color: red;
+}
+.analyses-create .create-form  .upload-error .upload-error-result p span{
+    color: #0d6efd;
+}
+.analyses-create .create-form .upload-error .upload-text p{
+    display: none;
+}
+.analyses-create .create-form .upload-error .upload-text .support{
+    color: #0d6efd;
+}
+.analyses-create .create-form .select{
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    color: #343a40;
+    background-color: #f6f6f6;
+    background-image:url('../../../../images/download.svg'); 
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 16px 12px;
+    border: 1px solid #ced4da;
+    appearance: none;
+}
+.analyses-create  .create-form .main-button {
+    cursor: pointer;
+    width: 100%;
+    margin: 22px 0 5px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #cfe2ff;
+    border-radius: 22px;
+    border: 0;
+}
+.analyses-create .create-form .main-button .link{
+    width: 100%;
+    display: block;
+    color: #0d6efd;
+    padding: 12px;
+}
+.analyses-create  .create-form .error{
+    color: red !important;
+    margin-top: 0px;
+    margin-left: 25px;
+    display: none ;
+}

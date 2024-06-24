@@ -1,0 +1,85 @@
+.create-form .container {
+  padding: 16px;
+  margin-top: 20px;
+}
+.create-form {
+  max-width: 530px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  color: #0d6efd;
+}
+.create-form h4 {
+  color: #868282;
+}
+.create-form hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.create-form label {
+  font-size: 15px;
+}
+.create-form input {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 22px;
+  background-color: #f6f6f6;
+  border: none;
+  font-size: 14px;
+}
+.create-form .select {
+  display: inline-block;
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  color: #343a40;
+  background-color: #f6f6f6;
+  background-image: url("../../../../images/download.svg");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 16px 12px;
+  border: 1px solid #ced4da;
+  appearance: none;
+}
+.create-form option {
+  border: none;
+}
+
+.create-form span {
+  color: #868282;
+}
+.create-form span a {
+  cursor: pointer;
+  color: #0d6efd;
+  text-decoration: underline;
+}
+.create-form .main-button {
+  cursor: pointer;
+  width: 100%;
+  margin: 22px 0 5px 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #cfe2ff;
+  border-radius: 22px;
+  border: 0;
+}
+.create-form .main-button .link{
+  width: 100%;
+  display: block;
+  color: #0d6efd;
+  padding: 12px;
+}
+.create-form .error{
+  color: red !important;
+  margin-top: 0px;
+  margin-left: 25px;
+  display: none ;
+}

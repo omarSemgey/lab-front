@@ -1,0 +1,68 @@
+.Authentication .container{
+    padding: 16px;
+    margin-top: 20px;
+}
+.Authentication{
+    max-width: 530px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    color:#0d6efd;
+}
+.Authentication h4{
+    color: #868282;
+}
+.Authentication hr{
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+.Authentication label{
+    font-size: 15px;
+}
+.Authentication input{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 22px;
+    background-color: #f6f6f6;
+    border: none;
+    font-size: 14px;
+}
+.Authentication span{
+    color: #868282;
+}
+.Authentication span a{
+    cursor: pointer;
+    color: #0d6efd;
+    text-decoration: underline;
+}
+.Authentication .main-button {
+    cursor: pointer;
+    width: 100%;
+    padding: 12px;
+    margin: 22px 0 5px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #0d6efd;
+    background-color: #cfe2ff;
+    border-radius: 22px;
+    border: 0;
+}
+/* .Authentication .main-button .link{
+    width: 100%;
+    display: block;
+    color: #0d6efd;
+} */
+.Authentication .error{
+    color: red !important;
+    margin-top: 0px;
+    margin-left: 25px;
+    display: none ;
+}

@@ -1,0 +1,29 @@
+.show .information{
+    display: flex;
+    justify-content: space-evenly;
+}
+.show .information img{
+    width: 25%;
+}
+.show .information .text{
+    text-align: left;
+    padding: 24px;
+    width: 70%;
+}
+.show .information ul{
+    margin: 0;
+    padding: 0;
+}
+.show .information ul .info{
+    padding: 12px;
+}
+.show .information ul .info:nth-child(odd) {
+    background-color: #eee;
+}
+.show .information ul .info span{
+    display: inline-block;
+    width: 120px;
+}
+.show .information ul .info .icon{
+    margin-right: 16px;
+}
