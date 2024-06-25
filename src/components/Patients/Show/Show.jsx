@@ -5,7 +5,7 @@ import GetId from '../../../hooks/GetId'
 import axios from 'axios';
 import { useNavigate, useParams } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCalendar, faFileAlt, faUserMd } from '@fortawesome/free-solid-svg-icons';
+import { faCalendar, faFileAlt, faUserMd,faBuilding } from '@fortawesome/free-solid-svg-icons';
 
 export default function Show(){
     const [PatientId,setId]= useState(0);
@@ -53,6 +53,7 @@ export default function Show(){
                         : {doctor.name}
                         </li>
                         <li className='info'>
+                        <FontAwesomeIcon className='icon' icon={faBuilding}></FontAwesomeIcon>
                         <span>branch</span>
                         : {branch.title}
                         </li>

@@ -9,4 +9,3 @@
 4- Start the development server: 
 <br><code>npm run dev</code><br>
 5- Access the application in your web browser at http://localhost:5173/.
-

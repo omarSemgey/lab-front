@@ -45,11 +45,13 @@ export default function Form(){
         } })
         .then((response) => {
             navigate('/')
+            console.log(response)
         })            
         .catch(error => { 
-                const err=error.response.data.message;
-                err == 'The title field is required.' || err == 'The title field is required. (and 1 more error)' || err == 'The title field must be at least 3 characters' ? setDisplayTitle('block') : setDisplayTitle('none');
-                err == 'The content field is required.' || err == 'The content field must be an image. (and 3 more errors)' || err == 'The title field is required. (and 1 more error)' ? setDisplayContent('block') : setDisplayContent('none');           
+            const err=error.response.data.message;
+            err == 'The title field is required.' || err == 'The title field is required. (and 1 more error)' || err == 'The title field must be at least 3 characters' ? setDisplayTitle('block') : setDisplayTitle('none');
+            err == 'The content field is required.' || err == 'The content field must be an image. (and 3 more errors)' || err == 'The title field is required. (and 1 more error)' || err == 'The content field must be a file of type: png, jpg, jpeg.' ? setDisplayContent('block') : setDisplayContent('none');           
+            err == 'content is not appropriate.' ? setDisplayContent('block') : setDisplayContent('none')
             });
     }
     return(
