@@ -8,7 +8,7 @@
 3- Install the back end section of the project at : https://github.com/omarSemgey/lab-back.<br>
 4- Start the development server: 
 <br><code>npm run dev</code><br>
-5- Access the application in your web browser at http://localhost:5173/.
-6- Access the dashboard through the manger account.
-  <br>Email:manger@gmail.com<br>
-  <br>Password:123456<br>
+5- Access the application in your web browser at http://localhost:5173/.<br>
+6- Access the dashboard through the manger account.<br>
+  Email:manger@gmail.com<br>
+  Password:123456<br>
