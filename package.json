@@ -9,7 +9,7 @@
     "predeploy": "npm run build",
     "dev": "vite",
     "build": "vite build",
-    "start": "webpack serve --config ./webpack.config.js --mode development",
+    "start": "npm run start",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
