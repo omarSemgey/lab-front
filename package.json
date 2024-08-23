@@ -9,7 +9,7 @@
     "predeploy": "npm run build",
     "dev": "vite",
     "build": "vite build",
-    "start": "NODE_ENV=production node ./build/server.js",
+    "start": "serve -s build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
